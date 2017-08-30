@@ -3796,7 +3796,6 @@ linear	13	FED73C
 homemaker	13	7D1842
 immobile	13	034E6D
 tutorial	13	28ADCE
-heterosexual	13	FF4B02
 softening	13	E6AB0F
 orphaned	13	235C93
 conclusive	13	FF7F1C
