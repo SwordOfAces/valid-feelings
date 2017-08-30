@@ -9,5 +9,5 @@ The motivation here, however, was the idea of a list of Valid Emotions and the c
 
 Running the script tweets a tweet with a message with the feeling, and an image that has the feeling and hex value of the color,
 on a background of the color. 
-The script is no longer scheduled with Task Scheduler due to that being a big troublesome mess.
-Using the alternative of having it sleep and just running constantly. Not great. :/
+
+As it's now (has been for several months) on my Pi, it's set up on cron.
