@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import linecache
+import os
 import random
 import re
 import time
@@ -9,7 +10,8 @@ import tweepy
 
 def main():
     IMG_FILENAME = "feel_color.png"
-    LOCATION = '/home/pi/Documents/Python/validitybot/'
+    # Get absolute path of this file
+    LOCATION = os.path.dirname(os.path.realpath(__file__)) + '/'
     cfg = get_config(LOCATION)
     api = get_api(cfg)
     valid_feelings = "feelings.txt"
